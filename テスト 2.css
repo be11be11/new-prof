@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  }
+  
+body {
+    padding-top: 30px; /* ヘッダーの後ろに要素が隠れないようにするため */
+}
+
+header {
+  position: top;
+  height: 50vh;
+      padding: 0 0 33.25% 0;
+	margin: 0;
+	width: 100%;
+	height: 0;
+  background: url("profile header neko 1.jpg") center / cover;
+}
+
+.main {
+  background-image: url("profile main megane 1.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  }
+
+.box{
+    padding: 0 0 71.25% 0;
+	margin: 0;
+	width: 100%;
+	height: 0;
+  border: solid red;
+  overflow: hidden;
+  list-style:none;
+  }
+  
+ @media screen and (min-width: 800px) {
+	/* 800px以上に適用されるCSS（タブレット用） */
+}
+@media screen and (min-width: 1280px) {
+	/* 1280px以上に適用されるCSS（PC用） */
+}
+

@@ -26,6 +26,9 @@ header {
   display:flex;
   justify-content: space-around;
   flex-wrap: wrap;
+ }
+
+.box{
     padding: 0 0 71.25% 0;
 	margin: 0;
 	width: 100%;

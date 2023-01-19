@@ -26,6 +26,32 @@ header {
   display:flex;
   justify-content: space-around;
   flex-wrap: wrap;
+　flex-wrap : wrap;
+
+/* モバイルファーストの場合 */
+
+width:320px;
+
+} /* モバイルファーストにすると */
+
+@media screen and (min-width: 768px) and (max-width: 991.9px) {
+
+/*768~991.9pxまで */
+
+.wrapper{
+
+width: 640px;
+
+　}
+} 
+
+@media screen and (min-width: 992px) /* 992以上 */
+
+.wrapper{
+
+    width: 960px;
+  }
+}
  }
 
 .example{

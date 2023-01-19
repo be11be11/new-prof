@@ -3,30 +3,17 @@
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
-  }
-  
-body {
-    padding-top: 30px; /* ヘッダーの後ろに要素が隠れないようにするため */
-}
+/* 子要素を横並びにする */
 
-header {
-  position: top;
-  height: 50vh;
-      padding: 0 0 33.25% 0;
-	margin: 0;
-	width: 100%;
-	height: 0;
-  background: url("profile header neko 1.jpg") center / cover;
-}
+display: flex;
 
-.main {
-  background-image: url("profile main megane 1.jpeg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  display:flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-　flex-wrap : wrap;
+/* ボックスを中央に均等に配置する */
+
+justify-content: space-around; /* .boxが幅の端まで来たら折り返し /
+
+flex-wrap : wrap;
+
+flex-wrap : wrap;
 
 /* モバイルファーストの場合 */
 
@@ -52,7 +39,30 @@ width: 640px;
     width: 960px;
   }
 }
- }
+
+  }
+ 
+body {
+    padding-top: 30px; /* ヘッダーの後ろに要素が隠れないようにするため */
+}
+
+header {
+  position: top;
+  height: 50vh;
+      padding: 0 0 33.25% 0;
+	margin: 0;
+	width: 100%;
+	height: 0;
+  background: url("profile header neko 1.jpg") center / cover;
+}
+
+.main {
+  background-image: url("profile main megane 1.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 
 .example{
     padding: 0 0 71.25% 0;

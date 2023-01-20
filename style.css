@@ -5,10 +5,6 @@
   margin: 0 auto;
 /* 子要素を横並びにする */
 display: flex;
-
-/* ボックスを中央に均等に配置する */
-justify-content: space-around; 
-
 /* .boxが幅の端まで来たら折り返し /
 flex-wrap : wrap;
  

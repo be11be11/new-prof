@@ -5,8 +5,6 @@
   margin: 0 auto;
 /* 子要素を横並びにする */
 display: flex;
-/* .boxが幅の端まで来たら折り返し /
-flex-wrap : wrap;
  
 body {
     padding-top: 30px; /* ヘッダーの後ろに要素が隠れないようにするため */

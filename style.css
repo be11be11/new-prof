@@ -11,26 +11,6 @@ justify-content: space-around;
 
 /* .boxが幅の端まで来たら折り返し /
 flex-wrap : wrap;
-
-/* モバイルファーストの場合 */
-width:320px;
-} 
-
-/* モバイルファーストにすると */
-@media screen and (min-width: 768px) and (max-width: 991.9px) 
-{
-
-/*768~991.9pxまで */
-.wrapper{
-width: 640px;
-　}
-} 
-
-@media screen and (min-width: 992px) /* 992以上 */
-.wrapper{
-    width: 960px;
-  }
-}
  
 body {
     padding-top: 30px; /* ヘッダーの後ろに要素が隠れないようにするため */

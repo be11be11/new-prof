@@ -21,7 +21,7 @@ header {
 
 .main {
   background-image: url("profile main megane 1.jpeg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   display:flex;
   justify-content: space-around;

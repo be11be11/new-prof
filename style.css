@@ -28,8 +28,7 @@ header {
   background-repeat: no-repeat;
   display:flex;
   justify-content: center;
-　.resizeimage {width: 90%}
-  .resizeimage {width: 100%}
+　  .resizeimage {width: 100vw}
  }
 
 .example{

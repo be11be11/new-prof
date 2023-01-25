@@ -17,8 +17,8 @@ header {
 	width: 100%;
 	height: 0;
   background: url("profile header neko 1.jpg") center / cover;
-  .resizeimage {width: 90%}
-  .resizeimage {width: 100%}
+  .resizeimage {width: 90%;}
+  .resizeimage img {width: 100%;}
 }
 
 
@@ -28,7 +28,6 @@ header {
   background-repeat: no-repeat;
   display:flex;
   justify-content: center;
-　  .resizeimage {width: 100vw}
  }
 
 .example{

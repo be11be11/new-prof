@@ -23,9 +23,8 @@ header {
 .main {
 　display: flex;
 　justify: center;
- background-image: url("profile main megane 1.jpeg");
- width: 100%;
- background-size: 100%;
+  background-image: url("profile main megane 1.jpeg");
+ background-size: 75% 95%;
   background-repeat: no-repeat;
 　overflow: visible;
  }
@@ -35,8 +34,8 @@ header {
 	margin: 0;
 	width: 100%;
  background-image: url("profile main megane 1.jpeg");
- background-size: 100%;
-  background-repeat: no-repeat;
+ background-size: 75% 95%;
+ background-repeat: no-repeat;
   border: solid red;
 　display: flex;
   justify: center;

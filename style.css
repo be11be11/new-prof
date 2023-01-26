@@ -24,14 +24,15 @@ header {
 　justify: center;
  background-image: url("profile main megane 1.jpeg");
  width: 100%;
- background-size: 100%;
+ background-size: cover;
   background-repeat: no-repeat;
  }
 
 .example{
     padding: 0 0 71.25% 0;
 	margin: 0;
-	width: 100%
+	width: 100%;
+
  background-image: url("profile main megane 1.jpeg");
  background-size: 100%;
   background-repeat: no-repeat;

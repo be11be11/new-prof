@@ -27,7 +27,7 @@ header {
  width: 100%;
  background-size: 100%;
   background-repeat: no-repeat;
-　overflow: auto;
+　overflow: visible;
  }
 
 .example{
@@ -40,7 +40,7 @@ header {
   border: solid red;
 　display: flex;
   justify: center;
-  overflow: auto;
+  overflow: visible;
   list-style:none;
   }
   

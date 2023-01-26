@@ -35,7 +35,7 @@ header {
 	height: 100%;
  background-image: url("profile main megane 1.jpeg");
  background-size: 100%;
-  .resizeimage img { width: 100%; }
+  background-repeat: no-repeat;
   border: solid red;
   white-space: nowrap;
 　display: flex;

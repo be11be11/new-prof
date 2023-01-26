@@ -44,9 +44,9 @@ header {
   list-style:none;
   }
   
- @media screen and (min-width: 800px) {
+ @media screen and (max-width: 1280px) {
 	/* 800px以上に適用されるCSS（タブレット用） */
 }
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 800px) {
 	/* 1280px以上に適用されるCSS（PC用） */
 }

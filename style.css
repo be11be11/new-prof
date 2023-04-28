@@ -1,51 +1,81 @@
 @charset "UTF-8";
 
-.wrapper {
-  max-width: 1000px;
-  margin: 0 auto;
-  }
+@media screen and (min-width:10px) and (max-width:500px){
   
-body {
-    padding-top: 30px; /* ヘッダーの後ろに要素が隠れないようにするため */
-}
+div.祖 {width: 100%; background-color: rgba(200, 0, 100, 0); display:flex; flex-flow: column; position: relative; }
+div.親1 {width: 99%; height: 325px; background-color: rgba(0, 150, 50, 0); position: relative; }
+div.親2 {width: 99%; height: 700px; background-color: rgba(0, 150, 50, 0); display: flex; flex-flow: column; text-align: center; 
+	background-image: url();
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;}
+div.親3 {width: 99%; height: 550px; background-color: rgba(0, 150, 50, 0); border:2px solid blue; position: relative; }
+div.親4 {width: 99%; height: 600px; background-color: rgba(0, 150, 50, 0); position: relative; }  
 
-header {
-  position: top;
-  height: 50vh;
-      padding: 0 0 33.25% 0;
-	margin: 0;
-	width: 100%;
-	height: 0;
-  background: url("profile header neko 1.jpg") center / cover;
-}
+div.text1 {width: 85%; height: 325px; background-color: rgba(100, 250, 0, 0); margin: 0 auto; }
 
-
-.main {
-　display: flex;
-　justify: center;
-  background-image: url("profile main megane 1.jpeg");
- background-size: 120% 95%;
-  background-repeat: no-repeat;
-　overflow: visible;
- }
-
-.example{
-    padding: 0 0 71.25% 0;
-	margin: 0;
-	width: 100%;
- background-image: url("profile main megane 1.jpeg");
- background-size: 115% 100%;
- background-repeat: no-repeat;
-  border: solid red;
-　display: flex;
-  justify: center;
-  overflow: visible;
-  list-style:none;
-  }
+div.子1 {border:2px solid lime; width: 99%; height: 325px; background-color: rgba(0, 150, 50, 0.2); position: relative; text-align: center; }
+div.子2 {border:2px solid blue; width: 99%; height: 325px; background-color: rgba(0, 150, 50, 0.2); position: relative; text-align: center; }
+div.テキスト {border:2px solid green; width: 45%; height: 25px; background-color: rgba(100, 0, 50, 0.2); position: absolute; margin-top: 15px; z-index: 2; } 
   
- @media screen and (max-width: 1280px) {
-	/* 800px以上に適用されるCSS（タブレット用） */
+div.text2 {width: 35%; height: 275px; background-color: rgba(100, 250, 0, 0.1); margin-top: -20%; margin-left: 50%; }
+
+div.text3 {width: 35%; height: 275px; background-color: rgba(100, 250, 0, 0); margin-top: -10%; margin-left: 50%; }
+
+div.text4 {width: 25%; height: 100px; background-color: rgba(100, 250, 0, 0.2); position: absolute; margin-top: 40%; margin-left: 15%; }  
+  
 }
-@media screen and (max-width: 800px) {
-	/* 1280px以上に適用されるCSS（PC用） */
+
+
+ @media screen and (min-width:501px) and (max-width:1400px){
+   
+div.祖 {width: 100%; background-color: rgba(200, 0, 100, 0); display:flex; flex-flow: column; position: relative; }
+div.親1 {width: 99%; height: 325px; background-color: rgba(0, 150, 50, 0); position: relative; }
+div.親2 {width: 99%; height: 700px; background-color: rgba(0, 150, 50, 0); display: flex; flex-flow: column; text-align: center; 
+	background-image: url();
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;}
+div.親3 {width: 99%; height: 550px; background-color: rgba(0, 150, 50, 0); border:2px solid blue; position: relative; }
+div.親4 {width: 99%; height: 600px; background-color: rgba(0, 150, 50, 0); position: relative; }  
+
+div.text1 {width: 85%; height: 325px; background-color: rgba(100, 250, 0, 0); margin: 0 auto; }
+
+div.子1 {border:2px solid lime; width: 99%; height: 325px; background-color: rgba(0, 150, 50, 0.2); position: relative; text-align: center; }
+div.子2 {border:2px solid blue; width: 99%; height: 325px; background-color: rgba(0, 150, 50, 0.2); position: relative; text-align: center; }
+div.テキスト {border:2px solid green; width: 45%; height: 25px; background-color: rgba(100, 0, 50, 0.2); position: absolute; margin-top: 15px; z-index: 2; } 
+  
+div.text2 {width: 35%; height: 275px; background-color: rgba(100, 250, 0, 0.1); margin-top: -20%; margin-left: 50%; }
+
+div.text3 {width: 35%; height: 275px; background-color: rgba(100, 250, 0, 0); margin-top: -10%; margin-left: 50%; }
+
+div.text4 {width: 25%; height: 100px; background-color: rgba(100, 250, 0, 0.2); position: absolute; margin-top: 40%; margin-left: 15%; }  
+   
+}
+
+   
+ @media screen and (min-width:1400px) and (max-width:2000px){  
+   
+div.祖 {width: 100%; background-color: rgba(200, 0, 100, 0); display:flex; flex-flow: column; position: relative; }
+div.親1 {width: 99%; height: 325px; background-color: rgba(0, 150, 50, 0); position: relative; }
+div.親2 {width: 99%; height: 700px; background-color: rgba(0, 150, 50, 0); display: flex; flex-flow: column; text-align: center; 
+	background-image: url();
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;}
+div.親3 {width: 99%; height: 550px; background-color: rgba(0, 150, 50, 0); border:2px solid blue; position: relative; }
+div.親4 {width: 99%; height: 600px; background-color: rgba(0, 150, 50, 0); position: relative; }  
+
+div.text1 {width: 85%; height: 325px; background-color: rgba(100, 250, 0, 0); margin: 0 auto; }
+
+div.子1 {border:2px solid lime; width: 99%; height: 325px; background-color: rgba(0, 150, 50, 0.2); position: relative; text-align: center; }
+div.子2 {border:2px solid blue; width: 99%; height: 325px; background-color: rgba(0, 150, 50, 0.2); position: relative; text-align: center; }
+div.テキスト {border:2px solid green; width: 45%; height: 25px; background-color: rgba(100, 0, 50, 0.2); position: absolute; margin-top: 15px; z-index: 2; } 
+  
+div.text2 {width: 35%; height: 275px; background-color: rgba(100, 250, 0, 0.1); margin-top: -20%; margin-left: 50%; }
+
+div.text3 {width: 35%; height: 275px; background-color: rgba(100, 250, 0, 0); margin-top: -10%; margin-left: 50%; }
+
+div.text4 {width: 25%; height: 100px; background-color: rgba(100, 250, 0, 0.2); position: absolute; margin-top: 40%; margin-left: 15%; }  
+   
 }
